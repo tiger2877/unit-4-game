@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokemon Collector</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="Assets/css/reset.css" rel="stylesheet">
+  <link href="Assets/css/style.css" rel="stylesheet">
+  
+   <!-- Added link to the jQuery Library -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+</head>
+
+<body>
+<div class="container">  
+      <header>
+          <div class="text-center">
+              <img class="auth-image" title="Pokemon Collector Game" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon Collector Game">
+              <h1>Pokemon Collector</h1>
+          </div>  
+      </header>
+
+
+    <div class="text-center">
+        <p>Click on each pokemon to match your points to the target number. </p>
+        <p>The value of the pokemon will change for every game. If your points match the random number, you win. </p>
+        <p>If your points go over the target number, you lose. </p>
+    </div>
+
+<!-- First Row -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">Target Number<br><span id="guess" class="number">0</span></li>
+                    <li class="list-group-item">Your Number<br><span id="counter" class="number">0</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-right">
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Wins<br><span id="wins" class="number">0</span></li>
+                <li class="list-group-item">Losses<br><span id="losses" class="number">0</span></li>
+              </ul>
+            </div>
+        </div>
+    </div>   
+ <!-- Second Row -->    
+    <div class="row">
+        <div class="text-center">
+            <div class="col-md-12">
+             <p style="margin-top: 20px;">Click on a pokemon to start:</p> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div id="pokemon"></div>
+         <div class="col-md-3" id="pokemon">
+            <img id="one" class="image pokemon-image pokemon1" src="Assets/images/charmander.png" alt="charmander">
+        </div>
+        <div class="col-md-3" id="pokemon">
+            <img id="two" class="image pokemon-image pokemon2" src="Assets/images/pikachu.png" alt="pikachu">
+        </div>
+        <div class="col-md-3" id="pokemon">
+            <img id="three" class="image pokemon-image pokemon3" src="Assets/images/squirtle.png" alt="squirtle">
+        </div>
+        <div class="col-md-3" id="pokemon">
+            <img id="four"  class="image pokemon-image pokemon4" src="Assets/images/bulbasaur.png" alt="bulbasaur">
+        </div>
+    </div>
+    
+    <!-- Forth Row -->    
+    <div class="row">
+            <div class="text-center">
+                <div class="col-md-12">
+                    <div id="message"></div>             
+                </div>
+            </div>
+        </div>
+    
+
+</div>
+
+      <!-- Sticky Footer -->
+      <div class="row">
+          <div class="col-md-12">  
+              <div class="footer">
+                  <footer>
+                  © 2018 Pryambudhi Cahyadi &copy; 
+                  </footer>
+              </div>
+          </div>
+      </div>
+</div>
+      <script type="text/javascript" src="Assets/javascript/game.js"></script>
+
+</body>
+</html>
