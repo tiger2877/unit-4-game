@@ -43,7 +43,8 @@
         $('#losses').text(losses);
         $("#guess").text(targetNumber);
         $('#counter').text(counter);
-
+        $("#message").text("");
+        
          // Each imageCrystal will be given a data attribute called data-pokemonValue.
          // This data attribute will be set equal to the array value.
  
