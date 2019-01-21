@@ -29,7 +29,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 ### Option One: CrystalsCollector Game (Recommended)
 
-![Crystal Collector](Images/1-CrystalCollector.jpg)
+![Crystal Collector](1-CrystalCollector.jpg)
 
 1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
 
