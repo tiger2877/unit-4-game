@@ -64,7 +64,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 ### Option Two: Star Wars RPG Game (Challenge)
 
-![Star Wars](Images/2-StarWars.jpg)
+![Star Wars](2-StarWars.jpg)
 
 1. [Watch the demo](https://youtu.be/klN2-ITjRt8).
 
